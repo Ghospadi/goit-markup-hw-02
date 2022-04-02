@@ -1,6 +1,6 @@
 :root {
   --hover-color: #2196f3;
-  --main-background: #E5E5E5;
+  --main-background: #e5e5e5;
   --main-color: #000;
 }
 
@@ -22,7 +22,7 @@ body {
   width: 370px;
   height: 404px;
   border: 1px solid #eeeeee;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
 .address li a {
@@ -78,7 +78,9 @@ body {
   font-weight: 500;
 }
 
-.header li, .content li, address li {
+.header li,
+.content li,
+address li {
   list-style-type: none;
 }
 
@@ -113,11 +115,10 @@ a:focus {
 }
 
 .location-address a {
-    color:#ffffff;
+  color: #ffffff;
 }
 
 .address .mail-address a,
 .address .tel-address a {
   color: #75757599;
 }
-
