@@ -1,0 +1,123 @@
+:root {
+  --hover-color: #2196f3;
+  --main-background: #E5E5E5;
+  --main-color: #000;
+}
+
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  background: var(--main-background);
+  color: var(--main-color);
+}
+
+.header {
+  background: #ffffff;
+}
+
+.footer {
+  background: #2f303a;
+}
+
+.cards figure {
+  width: 370px;
+  height: 404px;
+  border: 1px solid #eeeeee;
+  background: #FFFFFF;
+}
+
+.address li a {
+  color: #ffffff;
+  line-height: 1.4;
+}
+
+.header a,
+.header a:active,
+.address a,
+.address a:active,
+.footer a,
+.footer a:active {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.header a:hover,
+.header a:focus,
+.address a:hover,
+.address a:focus,
+.footer a:hover,
+.footer a:focus,
+.address .mail-address a:hover,
+.address .mail-address a:focus,
+.address .tel-address a:hover,
+.address .tel-address a:focus {
+  color: var(--hover-color);
+}
+
+.content button {
+  width: 128px;
+  height: 38px;
+  background: #f5f4fa;
+  border: 0;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Roboto";
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.content button:hover,
+.content button:focus {
+  width: 128px;
+  height: 38px;
+  background: var(--hover-color);
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+
+.header li, .content li, address li {
+  list-style-type: none;
+}
+
+.header li a {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.cards h3 {
+  color: #212121;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+}
+
+.cards p {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+.contact-address a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #757575;
+}
+
+.contact-address a:hover,
+a:focus {
+  color: var(--hover-color);
+}
+
+.location-address a {
+    color:#ffffff;
+}
+
+.address .mail-address a,
+.address .tel-address a {
+  color: #75757599;
+}
+
