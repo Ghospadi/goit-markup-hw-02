@@ -10,11 +10,11 @@ body {
   color: var(--main-color);
 }
 
-.header {
+.portfolio-header {
   background: #ffffff;
 }
 
-.footer {
+.portfolio-footer {
   background: #2f303a;
 }
 
@@ -25,31 +25,31 @@ body {
   background: #ffffff;
 }
 
-.address li a {
+.company-address li a {
   color: #ffffff;
   line-height: 1.4;
 }
 
-.header a,
-.header a:active,
-.address a,
-.address a:active,
-.footer a,
-.footer a:active {
+.portfolio-header a,
+.portfolio-header a:active,
+.company-address a,
+.company-address a:active,
+.portfolio-footer a,
+.portfolio-footer a:active {
   color: var(--main-color);
   text-decoration: none;
 }
 
-.header a:hover,
-.header a:focus,
-.address a:hover,
-.address a:focus,
-.footer a:hover,
-.footer a:focus,
-.address .mail-address a:hover,
-.address .mail-address a:focus,
-.address .tel-address a:hover,
-.address .tel-address a:focus {
+.portfolio-header a:hover,
+.portfolio-header a:focus,
+.company-address a:hover,
+.company-address a:focus,
+.portfolio-footer a:hover,
+.portfolio-footer a:focus,
+.company-address .mail-address a:hover,
+.company-address .mail-address a:focus,
+.company-address .tel-address a:hover,
+.company-address .tel-address a:focus {
   color: var(--hover-color);
 }
 
@@ -78,13 +78,13 @@ body {
   font-weight: 500;
 }
 
-.header li,
+.portfolio-header li,
 .content li,
-address li {
+.company-address li {
   list-style-type: none;
 }
 
-.header li a {
+.portfolio-header li a {
   font-size: 14px;
   font-weight: 500;
 }
@@ -118,7 +118,7 @@ a:focus {
   color: #ffffff;
 }
 
-.address .mail-address a,
-.address .tel-address a {
+.company-address .mail-address a,
+.company-address .tel-address a {
   color: #75757599;
 }
