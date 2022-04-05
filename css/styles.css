@@ -10,11 +10,11 @@ body {
   color: var(--main-color);
 }
 
-.portfolio-header {
+.pages-header {
   background: #ffffff;
 }
 
-.portfolio-footer {
+.pages-footer {
   background: #2f303a;
 }
 
@@ -30,22 +30,22 @@ body {
   line-height: 1.4;
 }
 
-.portfolio-header a,
-.portfolio-header a:active,
+.pages-header a,
+.pages-header a:active,
 .company-address a,
 .company-address a:active,
-.portfolio-footer a,
-.portfolio-footer a:active {
+.pages-footer a,
+.pages-footer a:active {
   color: var(--main-color);
   text-decoration: none;
 }
 
-.portfolio-header a:hover,
-.portfolio-header a:focus,
+.pages-header a:hover,
+.pages-header a:focus,
 .company-address a:hover,
 .company-address a:focus,
-.portfolio-footer a:hover,
-.portfolio-footer a:focus,
+.pages-footer a:hover,
+.pages-footer a:focus,
 .company-address .mail-address a:hover,
 .company-address .mail-address a:focus,
 .company-address .tel-address a:hover,
@@ -78,13 +78,14 @@ body {
   font-weight: 500;
 }
 
-.portfolio-header li,
+.pages-header li,
 .content li,
-.company-address li {
+.company-address li,
+.cards li {
   list-style-type: none;
 }
 
-.portfolio-header li a {
+.pages-header li a {
   font-size: 14px;
   font-weight: 500;
 }
