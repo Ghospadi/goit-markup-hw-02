@@ -194,7 +194,7 @@ a:focus {
 .company-address .mail-address a,
 .company-address .tel-address a {
   color: rgba(255, 255, 255, 0.6);
-  line-height: 1.5
+  line-height: 1.5;
 }
 
 .features-list {
