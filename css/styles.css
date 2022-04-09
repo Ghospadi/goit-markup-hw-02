@@ -14,7 +14,7 @@ body {
 }
 
 .pages-header {
-  background: var(--main-background);
+  background: var(--white-color);
 }
 
 .nav-site .item a {
