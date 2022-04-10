@@ -5,6 +5,7 @@
   --background-color-dark: #2f303a;
   --main-color: #212121;
   --grey-color: #757575;
+  --address-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -39,7 +40,7 @@ a:focus {
 }
 
 .pages-footer {
-  background: #2f303a;
+  background: var(--background-color-dark);
 }
 
 .cards figure {
@@ -189,11 +190,14 @@ a:focus {
 
 .location-address a {
   color: var(--white-color);
+  font-size: 14px;
+  font-style: normal;
 }
 
 .company-address .mail-address a,
 .company-address .tel-address a {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--address-color);
+  font-size: 14px;
   line-height: 1.5;
 }
 
@@ -209,8 +213,12 @@ a:focus {
   text-transform: uppercase;
 }
 
+
 .features-list p {
-  line-height: 1.5;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.72;
+  letter-spacing: 0.03em;
   color: var(--grey-color);
 }
 
@@ -238,6 +246,7 @@ a:focus {
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
+  font-family: inherit;
   line-height: 1.87;
   letter-spacing: 0.06em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
